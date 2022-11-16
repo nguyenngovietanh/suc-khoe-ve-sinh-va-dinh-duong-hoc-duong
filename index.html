@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+    <head>
+        <!-- head start -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Save the Children</title>
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/sharp-solid.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- Boxicons CDN Link -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <!-- head end -->
+    </head>
+    <body  style="background: #f7f7f7;">
+        <!-- header start -->
+        <header>
+            <!-- top-bar.html start -->
+            <nav>
+                <div class="navbar">
+                    <i class='bx bx-menu'></i>
+                    <div class="logo">
+                        <img src="./assets/images/logolc.png" alt="">
+                        <img src="./assets/images/logosc.png" alt="">
+                    </div>
+                    <div class="nav-links">
+                        <div class="sidebar-logo">
+                            <div class="sidebar-logo-box">
+                                <img src="./assets/images/logolc.png" alt="">
+                                <img src="./assets/images/logosc.png" alt="">
+                            </div>
+                            <i class='bx bx-x' ></i>
+                        </div>
+                        <ul class="links">
+                            <li>
+                                <a href="#">Giới thiệu</a>
+                                <i class='bx bxs-chevron-down arrow introduce-arrow' id="introduce-arrow"></i>
+                                <ul class="introduce-sub-menu sub-menu">
+                                    <li><a href="#">Thông tin BQLDA tỉnh Lào Cai</a></li>
+                                    <li class="more">
+                                        <span>
+                                            <a href="#" class="more-li">Chương trình Phát triển Cộng đồng lấy Trẻ em làm Trọng tâm</a>
+                                            <i class='bx bxs-chevron-right arrow more-arrow' id="more-arrow"></i>
+                                        </span>
+                                        <ul class="more-sub-menu sub-menu">
+                                        <li><a href="#">Sức khỏe - Phát triển thanh thiếu niên</a></li>
+                                        <li><a href="#">Sức khỏe - Vệ sinh và Dinh dưỡng học đường</a></li>
+                                        <li><a href="#">Giáo dục</a></li>
+                                        <li><a href="#">Bảo vệ trẻ em</a></li>
+                                        <li><a href="#">Phân luồng - Hướng nghiệp</a></li>
+                                        <li><a href="#">Sự tham gia của trẻ và Giới</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Tổ chức Cứu trợ Trẻ em</a></li>
+                                    <li><a href="#">Hợp phần Phân luồng - Hướng nghiệp</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Thế giới nghề nghiệp quanh ta</a>
+                                <i class='bx bxs-chevron-down arrow job-arrow' id="job-arrow"></i>
+                                <ul class="job-sub-menu sub-menu">
+                                    <li><a href="#">Ngành nghề truyền thống địa phương</a></li>
+                                    <li><a href="#">Ngành nghề phổ biến</a></li>
+                                    <li><a href="#">Ứng dụng tìm hiểu nghề nghiệp BecaXR</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Hướng nghiệp</a>
+                                <i class='bx bxs-chevron-down arrow guide-arrow' id="guide-arrow"></i>
+                                <ul class="guide-sub-menu sub-menu">
+                                    <li><a href="#">Khám phá bản thân</a></li>
+                                    <li><a href="#">Đánh giá năng lực bản thân</a></li>
+                                    <li><a href="#">Phát triển kỹ năng</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Thông tin cơ sở giáo dục nghề nghiệp</a></li>
+                            <li>
+                                <a href="#">Góc giáo viên</a>
+                                <i class='bx bxs-chevron-down arrow teacher-arrow' id="teacher-arrow"></i>
+                                <ul class="teacher-sub-menu sub-menu">
+                                <li><a href="#">Tài liệu tập huấn giáo viên</a></li>
+                                <li><a href="#">Văn bản Phân luồng - Hướng nghiệp</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Tuyển sinh</a></li>
+                        </ul>
+                    </div>
+                    <div class="search-box">
+                        <i class="bx bx-search"></i>
+                        <div class="input-box">
+                        <input type="text" placeholder="Search...">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- top-bar.html end -->
+            <script src="./assets/js/main.js"></script>
+            <!-- header.html start -->
+            <div class="header position-relative">
+                <div class="header-title h-100 d-flex align-items-center">
+                    <h1 class="text-center text-white">PHÂN LUỒNG - HƯỚNG NGHIỆP <br> DỰ ÁN PHÁT TRIỂN CỘNG ĐỒNG LẤY TRẺ EM LÀM TRỌNG TÂM</h1>
+                </div>
+                <div class="social-media h-100 d-flex flex-column justify-content-center position-absolute">
+                    <!-- <img src="./assets/images/fb.png" alt=""> -->
+                    <a href="https://www.facebook.com/savechildrenVN" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>           
+                    <!-- <img src="./assets/images/twitter.png" alt=""> -->
+                    <a href="https://www.youtube.com/channel/UC-qXN8aW5f9qupk00dQ1x8w" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <!-- <img src="./assets/images/youtube.png" alt=""> -->
+                    <a href="https://www.instagram.com/savethechildren_vn/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- header.html end -->
+        </header>
+        <!-- header end -->
+
+        <!-- body start -->
+        <div class="body-container">
+            <div class="main-container">
+                <!-- our-story start -->
+                <div class="our-story">
+                    <h2>SỨC KHỎE - VỆ SINH VÀ DINH DƯỠNG HỌC ĐƯỜNG</h2>
+                    <ul class="slide-story">
+                        <li class="story-container slide d-flex align-items-center">
+                            <div class="story-content d-flex justify-content-start align-items-center">
+                                <p>
+                                    <b>Mục tiêu:</b>  Cải thiện tình trạng dinh dưỡng và giảm các vấn đề sức khỏe liên quan đến nước và vệ sinh của trẻ em thông qua việc cải thiện kiến thức, thái độ và hành vi về sức khỏe và dinh dưỡng đối với tất cả mọi trẻ em.   
+                                </p>
+                            </div>
+                            <img src="./assets/images/story-1.jpg" alt="">
+                        </li>
+                        <li class="story-container story-container-2 slide d-flex align-items-center">
+                            <img src="./assets/images/story-2.JPG" alt="">
+                            <div class="story-content story-content-2 d-flex justify-content-start align-items-center">
+                                <p>
+                                    Nhằm cải thiện điều kiện vệ sinh và nước sạch trong trường học, chương trình hỗ trợ xây dựng nhà tắm kết hợp nhà vệ sinh, bếp ăn, lớp học, hỗ trợ khoan giếng nước sinh hoạt, cung cấp téc nước và máy lọc nước, làm hệ thống rửa tay ở các điểm trường
+                                </p>
+                            </div>
+                        </li>
+                        <li class="story-container slide d-flex align-items-center">
+                            <div class="story-content d-flex justify-content-start align-items-center">
+                                <p>
+                                    Bên cạnh đó, chương trình còn hỗ trợ nhà trường tổ chức XXX tiết dạy trải nghiệm/sự kiện truyền thông theo hình thức Rung Chuông Vàng để tăng cường kiến thức và thực hành vệ sinh dinh dưỡng cho học sinh tiểu học và trung học cơ sở.
+                                    <br><br>
+                                    Biến đổi khí hậu, bảo vệ môi trường và giảm rác thải nhựa đang là một những vấn đề đáng quan tâm hiện nay vì vậy chương trình tổ chức các sự kiện/cuộc thi nhằm nâng cao nhận thức của học sinh, cha mẹ phụ huynh và cộng đồng về vấn đề này. Chương trình đã thiết kế các khóa học trực tuyến về chủ đề biến đổi khí hậu với các video dễ hiểu, trò chơi vui nhộn thân thiện với học sinh để trẻ có thể học thông qua chơi. 
+                                </p>
+                            </div>
+                            <img src="./assets/images/story-3.JPG" alt="">
+                        </li>
+                    </ul>
+                    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+                    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+                    <script>
+                        $('.slide-story').slick({
+                            dots: true,
+                            slidesToShow: 1,
+                            adaptiveHeight: true,
+                            // autoplay: true,
+                            autoplaySpeed: 2000,
+                        });
+                    </script>
+                </div>
+                <!-- our-story end -->
+
+                <!-- image-gallery start -->
+                <div class="image-gallery">
+                    <h2>ẢNH HOẠT ĐỘNG</h2>
+                    <div id="carouselExampleControlsNoTouching" class="gallery-carousel carousel slide" data-bs-touch="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/images/slide-1.jpg" class="d-block w-100" alt="...">
+                                <div class="numbertext">1/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-2.JPG" class="d-block w-100" alt="...">
+                                <div class="numbertext">2/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-3.JPG" class="d-block w-100" alt="...">
+                                <div class="numbertext">3/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-4.JPG" class="d-block w-100" alt="...">
+                                <div class="numbertext">4/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-5.JPG" class="d-block w-100" alt="...">
+                                <div class="numbertext">5/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-6.JPG" class="d-block w-100" alt="...">
+                                <div class="numbertext">6/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-7.JPG" class="d-block w-100" alt="...">
+                                <div class="numbertext">7/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-8.JPG" class="d-block w-100" alt="...">
+                                <div class="numbertext">8/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-9.JPG" class="d-block w-100" alt="...">
+                                <div class="numbertext">9/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-10.jpg" class="d-block w-100" alt="...">
+                                <div class="numbertext me-2">10/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-11.jpg" class="d-block w-100" alt="...">
+                                <div class="numbertext">11/12</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slide-12.JPG" class="d-block w-100" alt="...">
+                                <div class="numbertext">12/12</div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <!-- <div class="numbertext"><span id="currentPage">1</span> / 12</div> -->
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- image-gallery end -->
+
+                <!-- our-active start -->
+                <div class="our-active">
+                    <h2>CÔNG VIỆC CỦA CHÚNG TÔI TẠI LÀO CAI</h2>
+                    <div class="active-gallery d-flex flex-wrap">
+                        <div class="active-item">
+                            <div class="active-image position-relative bg-dark d-flex justify-content-center align-items-center">
+                                <img src="./assets/images/job-1.JPG" alt="">
+                                <h3 class="position-absolute text-center text-white px-2">Sức khỏe - Phát triển <br> thanh thiếu niên</h3>
+                            </div>
+                        </div>
+                        <div class="active-item">
+                            <div class="active-image position-relative bg-dark d-flex justify-content-center align-items-center">
+                                <img src="./assets/images/job-2.JPG" alt="">
+                                <h3 class="position-absolute text-center text-white px-4">Sức khỏe - Vệ sinh và <br> Dinh dưỡng học đường</h3>
+                            </div>
+                        </div>
+                        <div class="active-item">
+                            <div class="active-image position-relative bg-dark d-flex justify-content-center align-items-center">
+                                <img src="./assets/images/job-3.jpg" alt="">
+                                <h3 class="position-absolute text-center text-white px-4">Giáo dục</h3>
+                            </div>
+                        </div>
+                        <div class="active-item">
+                            <div class="active-image position-relative bg-dark d-flex justify-content-center align-items-center">
+                                <img src="./assets/images/job-4.jpg" alt="">
+                                <h3 class="position-absolute text-center text-white px-4">Bảo vệ trẻ em</h3>
+                            </div>
+                        </div>
+                        <div class="active-item">
+                            <div class="active-image position-relative bg-dark d-flex justify-content-center align-items-center">
+                                <img src="./assets/images/job-5.JPG" alt="">
+                                <h3 class="position-absolute text-center text-white px-4">Phân luồng - Hướng nghiệp</h3>
+                            </div>
+                        </div>
+                        <div class="active-item">
+                            <div class="active-image position-relative bg-dark d-flex justify-content-center align-items-center">
+                                <img src="./assets/images/job-6.JPG" alt="">
+                                <h3 class="position-absolute text-center text-white px-4">Sự tham gia của trẻ và Giới</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- our-active end -->
+            </div>
+        </div>
+        <!-- body end -->
+
+        <!-- footer.html start -->
+        <footer>
+            <div class="about-us d-flex">
+                <div class="about-us-col">
+                    <div class="col-title">Sở Giáo dục và Đào tạo tỉnh Lào Cai</div>
+                    <div class="col-content">
+                        Địa chỉ: Khối IV – Đường 30/4 – Phường Bắc Lệnh – Thành phố Lào Cai <br>
+                        ĐT: 0214.3840.120 - Fax: 0214.3842.425 <br><br>
+        
+                        <p class="col-title" style="margin-bottom: 10px">Tổ chức Cứu trợ trẻ em - Văn phòng Lào Cai</p>
+                        Địa chỉ: 275 Lê Thanh - Phường Bắc Cường – Thành phố Lào Cai <br>
+                        Điện thoại: 0214.2224.002 <br>
+                    </div>
+                </div>
+                <div class="about-us-col">
+                    <div class="col-title">Liên hệ với chúng tôi</div>   
+                    <div class="col-content">
+                        <p>
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                            bqldasc@laocai.edu.vn
+                        </p>
+                        <p>
+                            <i class="fa-duotone fa-phone"></i>
+                            0214.3840.120
+                        </p>
+                        <p>
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            Khối IV - Đường 30/4 – Phường Bắc Lệnh – Thành phố Lào Cai
+                        </p>
+                    </div> 
+                </div>
+                <div class="about-us-col">
+                    <div class="col-title">Thống kê truy cập</div>    
+                    <div class="col-content">
+                        <p>Tổng truy cập: <b>1,000,000</b></p>
+                        <p>Hôm nay: <b>10</b></p>
+                        <p>Số lượt trong tuần: <b>1,000</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <div class="bottom-bar-content d-flex">
+                    <p>© 2022 Save the Children International</p>
+                    <p>Giới thiệu&nbsp;	&nbsp; | &nbsp;&nbsp;Liên hệ </p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer.html end -->     
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</html>
